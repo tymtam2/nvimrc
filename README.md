@@ -11,3 +11,7 @@ From running `:checkhealth`
 1. For telescope:
    1. https://github.com/BurntSushi/ripgrep#installation
    2. https://github.com/sharkdp/fd
+
+## Issues
+
+1. EeasyMotion `<leader><leader>` is still mapped despite `vim.g.EasyMotion_do_mapping = 0`
