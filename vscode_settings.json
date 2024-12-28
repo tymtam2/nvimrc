@@ -1,0 +1,121 @@
+{
+  "FSharp.useSdkScripts": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "notebook.output.textLineLimit": 500,
+  "explorer.confirmDragAndDrop": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "gopls": { "ui.semanticTokens": true },
+  "jupyter.askForKernelRestart": false,
+  "editor.lineNumbers": "relative",
+  "vim.easymotion": true,
+  "vim.useCtrlKeys": false,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": false,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  // "vim.enableNeovim": true,
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>","y"
+      ],
+      "after": [
+        "\"", "+", "y"
+      ],
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "2",
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "<leader>","y"
+      ],
+      "after": [
+        "\"", "+", "y"
+      ],
+    },
+    {
+      "before": [
+        "<leader>","Y"
+      ],
+      "after": [
+        "\"", "+", "Y"
+      ],
+    },
+    {
+      "before": [
+        "Q"
+      ],
+      "after": [
+        "<C-V>"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-q>": true,
+    "<C-w>": true,
+    "<C-e>": true,
+    "<C-r>": true,
+    "<C-t>": true,
+    "<C-y>": true,
+    "<C-u>": true,
+    "<C-i>": true,
+    "<C-o>": true,
+    "<C-p>": true,
+    "<C-]>": true,
+    "<C-a>": true,
+    "<C-d>": true,
+    "<C-f>": true,
+    "<C-x>": true,
+    "<C-v>": true,
+    "<C-b>": true,
+    "<C-n>": true,
+
+  },
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<ESC>",
+      ]
+    }
+  ],
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+  "vim.highlightedyank.duration": 800, 
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 5,
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.sideBar.location": "right",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "codium.codeCompletion.enable": true,
+  "editor.minimap.enabled": false,
+  "workbench.panel.defaultLocation": "right",
+  "cSpell.userWords": [
+    "nums"
+  ],
+  
+}
